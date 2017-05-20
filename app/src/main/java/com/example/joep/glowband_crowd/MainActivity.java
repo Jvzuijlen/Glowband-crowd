@@ -8,12 +8,11 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.os.AsyncTask;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.constraint.solver.widgets.Rectangle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
-import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -45,13 +44,9 @@ import com.google.android.gms.maps.model.PolygonOptions;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
 import static com.example.joep.glowband_crowd.R.id.map;
-import static com.example.joep.glowband_crowd.R.id.seekBarWidth;
 
 public class MainActivity extends FragmentActivity implements OnMapReadyCallback, com.google.android.gms.location.LocationListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
@@ -87,6 +82,8 @@ public class MainActivity extends FragmentActivity implements OnMapReadyCallback
 
     private int width;
     private int height;
+    //Git Test Comment
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
